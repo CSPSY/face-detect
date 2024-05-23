@@ -1,7 +1,18 @@
-# Vue 3 + Vite
+# face-detect
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+录制观测视频时人的表情
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+
+# 运行方法
+
+```
+npm install
+npm run dev
+```
+
+
+
+项目运行起来之后：
+
+- 左侧有按钮，可以打开摄像头进行录制
