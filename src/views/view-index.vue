@@ -5,15 +5,17 @@
   <div class="main">
     <el-card style="min-width: 480px">
       <el-row>
-        <el-col class="left" :span="6">
-          <section>
+        <el-col class="left" :span="4">
+          <section class="group-btn">
             <el-button class="btn" type="primary" plain>打开摄像头</el-button>
             <el-button class="btn" type="primary" plain>关闭摄像头</el-button>
           </section>
         </el-col>
-        <el-col class="right" :span="18">
+        <el-col class="right" :span="20">
           <section>
-            <audio src="../../public/show.mp4"></audio>
+            <video controls width="100%">
+              <source src="../../public/show.mp4" type="video/mp4" />
+            </video>
           </section>
         </el-col>
       </el-row>
@@ -29,7 +31,7 @@
   transform: translate(-50%, -50%);
 }
 
-.left {
+.left .group-btn {
   display: flex;
   flex-direction: column;
 }
